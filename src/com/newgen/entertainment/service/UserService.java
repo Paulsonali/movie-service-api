@@ -3,8 +3,8 @@ package com.newgen.entertainment.service;
 import com.newgen.entertainment.model.MovieData;
 
 public class UserService {
-	MovieData[] movieData;
-	int count;
+	private MovieData[] movieData;
+	private int count;
 	
 
 	public UserService(int size) {

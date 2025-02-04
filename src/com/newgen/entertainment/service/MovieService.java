@@ -4,8 +4,8 @@ import com.newgen.entertainment.model.MovieData;
 
 public class MovieService {
 	
-	UserService userService;
-	MovieData[] movieData;
+	private UserService userService;
+	private MovieData[] movieData;
 	public MovieService(UserService userService) {
 		this.userService=userService;
 		 movieData = userService.getAllMovie();
